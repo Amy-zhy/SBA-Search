@@ -1,6 +1,6 @@
 spring:
   application:
-    name: searchsector-service
+    name: search-service
 
   jpa: 
     database: mysql
