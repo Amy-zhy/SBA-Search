@@ -1,6 +1,6 @@
-package com.smc.sba.repository;
+package com.fsd.sba.repository;
 
-import com.smc.sba.entity.CompanyEntity;
+import com.fsd.sba.entity.CompanyEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

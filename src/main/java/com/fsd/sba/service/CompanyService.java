@@ -1,11 +1,11 @@
-package com.smc.sba.service;
+package com.fsd.sba.service;
 
-import com.smc.sba.entity.CompanyEntity;
-import com.smc.sba.entity.StockPriceEntity;
-import com.smc.sba.repository.CompanyRepository;
-import com.smc.sba.repository.StockPriceRepository;
-import com.smc.sba.utils.CommonResult;
-import com.smc.sba.utils.ResponseCode;
+import com.fsd.sba.entity.CompanyEntity;
+import com.fsd.sba.entity.StockPriceEntity;
+import com.fsd.sba.repository.CompanyRepository;
+import com.fsd.sba.repository.StockPriceRepository;
+import com.fsd.sba.utils.CommonResult;
+import com.fsd.sba.utils.ResponseCode;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -35,7 +35,7 @@ public class CompanyService {
 	 * Description: query all company.
 	 *
 	 * @param:
-	 * @return: com.smc.sba.utils.CommonResult
+	 * @return: com.fsd.sba.utils.CommonResult
 	 * @auther: Yuchaozh
 	 * @date: 2019/12/04 10:39
 	 */
@@ -53,7 +53,7 @@ public class CompanyService {
 	 * Description: query company by companyCode.
 	 *
 	 * @param:
-	 * @return: com.smc.sba.utils.CommonResult
+	 * @return: com.fsd.sba.utils.CommonResult
 	 * @auther: Yuchaozh
 	 * @date: 2019/12/04 10:39
 	 */
@@ -71,7 +71,7 @@ public class CompanyService {
 	 * Description: query company by companyName.
 	 *
 	 * @param:
-	 * @return: com.smc.sba.utils.CommonResult
+	 * @return: com.fsd.sba.utils.CommonResult
 	 * @auther: Yuchaozh
 	 * @date: 2019/12/04 10:39
 	 */

@@ -1,15 +1,15 @@
-package com.smc.sba.controller;
+package com.fsd.sba.controller;
 
-import com.smc.sba.dto.SectorDTO;
-import com.smc.sba.entity.CompanyEntity;
-import com.smc.sba.entity.StockPriceEntity;
-import com.smc.sba.repository.CompanyRepository;
-import com.smc.sba.service.CompanyService;
-import com.smc.sba.service.ExchangeService;
-import com.smc.sba.service.IpoService;
-import com.smc.sba.service.StockPriceService;
-import com.smc.sba.utils.CommonResult;
-import com.smc.sba.utils.ResponseCode;
+import com.fsd.sba.dto.SectorDTO;
+import com.fsd.sba.entity.CompanyEntity;
+import com.fsd.sba.entity.StockPriceEntity;
+import com.fsd.sba.repository.CompanyRepository;
+import com.fsd.sba.service.CompanyService;
+import com.fsd.sba.service.ExchangeService;
+import com.fsd.sba.service.IpoService;
+import com.fsd.sba.service.StockPriceService;
+import com.fsd.sba.utils.CommonResult;
+import com.fsd.sba.utils.ResponseCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

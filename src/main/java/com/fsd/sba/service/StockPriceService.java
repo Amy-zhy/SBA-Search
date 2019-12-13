@@ -1,9 +1,9 @@
-package com.smc.sba.service;
+package com.fsd.sba.service;
 
-import com.smc.sba.entity.StockPriceEntity;
-import com.smc.sba.repository.CompanyRepository;
-import com.smc.sba.repository.StockPriceRepository;
-import com.smc.sba.utils.CommonResult;
+import com.fsd.sba.entity.StockPriceEntity;
+import com.fsd.sba.repository.CompanyRepository;
+import com.fsd.sba.repository.StockPriceRepository;
+import com.fsd.sba.utils.CommonResult;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.smc.sba.utils.ResponseCode;
+import com.fsd.sba.utils.ResponseCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

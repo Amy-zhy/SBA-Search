@@ -1,6 +1,6 @@
-package com.smc.sba;
+package com.fsd.sba;
 
-import com.smc.sba.service.StockPriceService;
+import com.fsd.sba.service.StockPriceService;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import org.junit.Test;

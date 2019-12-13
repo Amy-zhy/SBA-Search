@@ -1,4 +1,4 @@
-package com.smc.sba.dto;
+package com.fsd.sba.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

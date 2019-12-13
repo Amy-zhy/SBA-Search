@@ -1,11 +1,11 @@
-package com.smc.sba.service;
+package com.fsd.sba.service;
 
-import com.smc.sba.entity.IPODetailEntity;
-import com.smc.sba.entity.StockExchangeEntity;
-import com.smc.sba.repository.ExchangeRepository;
-import com.smc.sba.repository.IpoRepository;
-import com.smc.sba.utils.CommonResult;
-import com.smc.sba.utils.ResponseCode;
+import com.fsd.sba.entity.IPODetailEntity;
+import com.fsd.sba.entity.StockExchangeEntity;
+import com.fsd.sba.repository.ExchangeRepository;
+import com.fsd.sba.repository.IpoRepository;
+import com.fsd.sba.utils.CommonResult;
+import com.fsd.sba.utils.ResponseCode;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -36,7 +36,7 @@ public class IpoService {
 	 * Description: query all ipoDetails.
 	 *
 	 * @param:
-	 * @return: com.smc.sba.utils.CommonResult
+	 * @return: com.fsd.sba.utils.CommonResult
 	 * @auther: Yuchaozh
 	 * @date: 2019/12/04 10:39
 	 */
@@ -68,7 +68,7 @@ public class IpoService {
 	 * Description: query company by companyCode.
 	 *
 	 * @param:
-	 * @return: com.smc.sba.utils.CommonResult
+	 * @return: com.fsd.sba.utils.CommonResult
 	 * @auther: Yuchaozh
 	 * @date: 2019/12/04 10:39
 	 */
@@ -86,7 +86,7 @@ public class IpoService {
 	 * Description: query company by companyCode.
 	 *
 	 * @param:
-	 * @return: com.smc.sba.utils.CommonResult
+	 * @return: com.fsd.sba.utils.CommonResult
 	 * @auther: Yuchaozh
 	 * @date: 2019/12/04 10:39
 	 */
